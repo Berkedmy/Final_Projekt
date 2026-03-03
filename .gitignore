@@ -1,0 +1,9 @@
+# Final Project
+
+Topic: pending approval.
+
+## Setup
+```bash
+uv pip install -e .
+
+
