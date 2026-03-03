@@ -6,4 +6,4 @@ Das konkrete Thema wird nach Rückmeldung des Dozenten ergänzt.
 ## Installation
 
 ```bash
-uv pip install -e .
+uv pip inst^^all -e .
