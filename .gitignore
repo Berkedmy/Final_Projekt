@@ -1,8 +1,8 @@
-# Fin__pycache__/
-     #*.pyc
-     #.venv/
-     #.idea/
-     #dist/
-     #build/
-     #*.egg-info/
-     #uv.lock
+.idea/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+*.egg-info/
+uv.lock
