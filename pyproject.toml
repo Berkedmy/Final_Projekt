@@ -3,19 +3,13 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "projekt"  # später z.B. "final-projekt-elo" o.ä.
+name = "final-projekt-bundesliga-elo"
 version = "0.1.0"
-description = "Final Project (Thema folgt nach Rückmeldung des Dozenten)"
+description = "Elo-Rating und Formanalyse für Bundesliga-Teams (Saisons 2023/24 und 2024/25)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "numpy>=2.0",
-    "pandas>=2.2",
-    "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.2",
+  "matplotlib>=3.8",
 ]
-
-[tool.setuptools]
-package-dir = {"" = "src"}
-
-[tool.setuptools.packages.find]
-where = ["src"]
