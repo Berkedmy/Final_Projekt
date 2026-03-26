@@ -2,25 +2,50 @@
 
 ## Projektüberblick
 
-In diesem Projekt wird ein Elo-Rating-Modell für die 1. Bundesliga implementiert und analysiert.  
-Untersucht werden die Saisons 2023/24 und 2024/25.
+In diesem Projekt wird ein Elo Rating Modell für die 1. Bundesliga umgesetzt und analysiert.
 
-Ziel ist es zu prüfen, wie gut ein Elo-basiertes Modell Spielausgänge vorhersagen kann und wie sich Teamstärken im Saisonverlauf entwickeln.
+Untersucht werden die Saisons 2023/24 und 2024/25.  
+Ziel ist es, die Entwicklung von Teamstärken im Saisonverlauf zu analysieren und zu prüfen, inwiefern sich Spielausgänge mit einem Elo Modell beschreiben lassen.
+
+Neben einer gemeinsamen Auswertung beider Saisons werden die Spielzeiten auch getrennt betrachtet, um Unterschiede besser erkennen zu können.
 
 ---
 
 ## Fragestellung
 
-- Wie gut sagt ein Elo-Modell Spielausgänge im Vergleich zu einer einfachen Baseline voraus?
-- Unterscheiden sich die Ergebnisse zwischen den beiden Saisons?
-- Hat ein Heimvorteil einen messbaren Einfluss auf die Vorhersagequalität?
+Im Rahmen des Projekts werden folgende Fragen untersucht:
+
+- Wie entwickeln sich die Elo Werte der Teams über die Saison hinweg?
+- Wie gut lässt sich die tatsächliche Leistung der Teams durch das Elo Modell abbilden?
+- Gibt es erkennbare Unterschiede zwischen den beiden Saisons?
+- Inwiefern hat der Heimvorteil Einfluss auf die Ergebnisse?
 
 ---
 
 ## Daten
 
-Verwendet werden öffentlich zugängliche Bundesliga-Spieldaten (z. B. OpenLigaDB).  
-Berücksichtigt werden unter anderem Heim-/Auswärtsteam, Tore und Spieltag.
+Für die Analyse werden Spieltagsdaten der 1. Bundesliga aus den Saisons 2023/24 und 2024/25 verwendet.
+
+Die Daten liegen als CSV Dateien vor und enthalten unter anderem:
+
+- Datum
+- Heimteam und Auswärtsteam
+- Tore beider Teams
+- Spielergebnis
+
+Die Datensätze wurden lokal eingebunden und im Projekt weiterverarbeitet.
+
+---
+
+## Umsetzung
+
+Das Projekt ist in mehrere Schritte unterteilt:
+
+1. Einlesen und Aufbereitung der Daten mit pandas  
+2. Erste deskriptive Analyse und Visualisierung  
+3. Implementierung des Elo Modells  
+4. Anwendung des Modells auf alle Spiele  
+5. Vergleich der Ergebnisse zwischen den Saisons  
 
 ---
 
