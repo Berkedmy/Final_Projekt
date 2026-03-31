@@ -47,6 +47,24 @@ Das Projekt ist in mehrere Schritte unterteilt:
 4. Anwendung des Modells auf alle Spiele  
 5. Vergleich der Ergebnisse zwischen den Saisons  
 
+Zusätzlich wurden verschiedene Erweiterungen und Auswertungen vorgenommen:
+
+- Vorhersage von Spielergebnissen auf Basis der Elo Werte  
+- Vergleich mit einer einfachen Baseline (immer Heimsieg)  
+- Erweiterung des Modells um einen Heimvorteil  
+- Analyse von Unentschieden im Modell  
+- Untersuchung der Modellgenauigkeit und Fehlvorhersagen  
+
+---
+
+## Ergebnisse
+
+Die Ergebnisse zeigen, dass das Elo Modell grundsätzlich gut geeignet ist, um Teamstärken abzubilden.
+
+Für die Vorhersage von Spielergebnissen liefert das Modell bessere Ergebnisse als eine einfache Baseline, bleibt aber insgesamt begrenzt. Besonders bei ausgeglichenen Spielen stößt das Modell an seine Grenzen, während es bei klaren Favoriten deutlich besser funktioniert.
+
+Die Erweiterung um den Heimvorteil führt zu einer leichten Verbesserung, während zusätzliche Anpassungen wie die gezielte Vorhersage von Unentschieden nicht automatisch zu besseren Ergebnissen führen.
+
 ---
 
 ## Installation
